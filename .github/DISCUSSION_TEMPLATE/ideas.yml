@@ -1,0 +1,27 @@
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Search existing ideas first. This discussion is public; do not include private task or account information."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggested improvement
+    validations:
+      required: true
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: Relevant platforms
+      multiple: true
+      options: [Web / PWA, Android, iOS]
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds (optional)

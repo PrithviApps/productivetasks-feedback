@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suggest a feature
+    url: https://github.com/PrithviApps/productivetasks-feedback/discussions/categories/ideas
+    about: Discuss improvements and react to existing suggestions.
+  - name: Private account or security support
+    url: mailto:support@productivetasks.com
+    about: Keep private account information and vulnerabilities out of public reports.
